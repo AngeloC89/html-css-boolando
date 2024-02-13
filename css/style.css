@@ -6,10 +6,40 @@
 
 /* header */
 header {
-    background-color: #FF6900;
-    white-space: 100%;
-    margin-bottom: 30px;
+    background-color: rgb(255, 105, 0);
+    width: 100%;
+    margin-bottom: 60px;
 
+}
+
+.navigation{
+    position: fixed;
+    background-color: rgb(255, 105, 0);
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: 1000;
+}
+
+.p-fix {
+    position: fixed;
+    z-index: 1400px;
+}
+
+header nav {
+    box-shadow: 0px 3px rgba(0, 0, 1, 0.292);
+}
+
+header>div div.d-flex {
+    justify-content: flex-end;
+}
+
+header i{
+    margin: 0;
+}
+
+header li{
+    flex-direction: row;
 }
 
 header>div {
@@ -43,9 +73,11 @@ main>div {
 
 .container {
     max-width: 1300px;
-    width: 100% margin: 20px;
+    width: 100% ;
+    margin: 20px auto;
     padding: 20px 30px;
     margin: 10px auto;
+    position: fixed;
 
 
 }
@@ -53,6 +85,8 @@ main>div {
 .small-container {
     max-width: 900px;
     margin: auto;
+   
+    
 
 }
 
@@ -72,7 +106,7 @@ main>div {
 
 .awe-f {
     color: white;
-    padding: 9%;
+    margin-right: 10px;
 }
 
 .card {
@@ -88,6 +122,7 @@ img {
 }
 /* footer */
 footer {
+    margin: auto;
     background-color: #1A1A1A;
     color: white;
     display: flex;
@@ -107,6 +142,10 @@ span strong{
     color: red;
 }
 /* position selector */
+.align-ic{
+    align-items: center;
+    align-content: center;
+}
 .f-wrap {
     flex-wrap: wrap;
 }
@@ -155,8 +194,11 @@ li {
     font-size: 10px;
     margin: 10px 10px 10px 0px;
     list-style: none;
-    
 
+}
+
+.fixed {
+    position: fixed;
 }
 /* hover */
 .hearts:hover {
@@ -169,6 +211,7 @@ li {
 
 .card:hover .img-b {
     display: block;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 1, 0.292);
 }
 
 li:hover {
