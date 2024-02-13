@@ -15,7 +15,7 @@ header {
 header>div {
     align-items: center;
     display: flex;
-} 
+}
 
 .logo {
     width: 20%;
@@ -30,33 +30,10 @@ main>div {
 }
 
 
-.img1 {}
-
-.img1-b {
+.img-b {
     display: none;
 }
 
-.img2 {}
-
-.img2-b {}
-
-.img3 {}
-
-.img3-b {}
-
-.img4 {}
-
-.img4-b {}
-
-.img4-b {}
-
-.img5 {}
-
-.img5-b {}
-
-.img6 {}
-
-.img6-b {}
 /* utility */
 .dbg {
     border: 1px solid red;
@@ -66,17 +43,17 @@ main>div {
 
 .container {
     max-width: 1300px;
-    width: 100%
-    margin: 20px;
+    width: 100% margin: 20px;
     padding: 20px 30px;
-    
+    margin: 10px auto;
+
 
 }
 
 .small-container {
     max-width: 900px;
     margin: auto;
-    
+
 }
 
 .d-flex {
@@ -101,16 +78,36 @@ main>div {
 .card {
     position: relative;
     cursor: pointer;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 30px);
+    margin: 10px;
 }
 
 img {
     width: 100%;
     display: block;
 }
+/* footer */
+footer {
+    background-color: #1A1A1A;
+    color: white;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
 
+footer div.d-flex.j-bet {
+    margin: 10px;
+}
+.j-bet {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+span strong{
+    color: red;
+}
 /* position selector */
-.f-wrap{
+.f-wrap {
     flex-wrap: wrap;
 }
 
@@ -154,22 +151,27 @@ img {
     height: 30px;
     display: inline;
 }
+li {
+    font-size: 10px;
+    margin: 10px 10px 10px 0px;
+    list-style: none;
+    
 
+}
 /* hover */
 .hearts:hover {
     color: #FF0000
 }
 
-.card:hover .img1 {
+.card:hover .img-a {
     display: none;
 }
 
-.card:hover .img1-b {
+.card:hover .img-b {
     display: block;
 }
 
-
-
-
-
-
+li:hover {
+    text-decoration: underline;
+    color: white;
+}
