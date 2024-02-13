@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    background-color: #FF6900;
+    white-space: 100%;
+
+}
+
+header>div {
+    justify-content: space-around;
+}
+ .logo {
+    width: 20%;
+}
+
+/* utility */
+.dbg{
+    border: 1px solid red;
+    width: 30px;
+    height: 30px;
+}
+.container {
+    max-width: 1200px;
+   
+}
+
+.small-container{
+    max-width: 800px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.h-nav {
+    justify-content: space-between;
+}
+
+.link-h{
+    text-decoration: none;
+    color: white;
+}
+.awe-f {
+    color: white;
+}
+.card{
+    width: 30%;
+}
+img{
+    width: 100%;
+    display: block;
+}
+/* position selector */
+
+.j-center{
+    justify-content: center;
+}
+
+.p-rel{
+    position:relative
+}
+
+.p-abs{
+    position: absolute;
+
+}
+
+.badge{
+    bottom: 30px;
+    left: 0;
+
+}
+
+.info{
+    bottom: 30px;
+    left: 30px;
+}
+
+.hearts {
+    right: 0;
+    top: 20px;
+}
